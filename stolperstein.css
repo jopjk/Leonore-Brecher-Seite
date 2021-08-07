@@ -1,0 +1,36 @@
+.center-text {
+    width: 60vw;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .center-text text{
+    width: 100%;
+  }
+
+  .background {
+    height: 100%;
+    background-image: url("img/Stolpersteine_Beispiel.jpg");
+    background-position: center;
+    background-size: cover;  
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    transform: scale(1.03);
+    overflow: hidden;
+  }
+
+  section {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .text {
+      width: 100%;
+  }
+
+  .anmerkung {
+      text-align: end;
+      font-size: 0.9em;
+      color:rgb(85, 85, 85);
+  }
